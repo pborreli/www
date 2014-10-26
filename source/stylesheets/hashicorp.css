@@ -146,17 +146,6 @@ h a s h i c o r p
     background-size: 44px 40px;
   }
 }
-.harmony-icon {
-  background: url(/images/nav-harmony.png) 0 0 no-repeat;
-  background-image: url("/images/nav-harmony.png");
-  background-size: 41px 40px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .harmony-icon {
-    background-image: url("/images/nav-harmony@2x.png");
-    background-size: 41px 40px;
-  }
-}
 .consul-icon {
   background: url(/images/nav-consul.png) 0 0 no-repeat;
   background-image: url("/images/nav-consul.png");
@@ -221,17 +210,6 @@ h a s h i c o r p
   .hashicorp-icon {
     background-image: url("/images/hashicorp-medium@2x.png");
     background-size: 50px 54px;
-  }
-}
-.timeline-harmony {
-  background: url(/images/time-harmony.png) 0 0 no-repeat;
-  background-image: url("/images/time-harmony.png");
-  background-size: 56px 56px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .timeline-harmony {
-    background-image: url("/images/time-harmony@2x.png");
-    background-size: 56px 56px;
   }
 }
 .timeline-vagrant {
@@ -1129,34 +1107,6 @@ body.index #header .main-links.navbar-nav li > a:hover,
 body.blog #header .main-links.navbar-nav li > a:hover {
   color: #48b4fb;
 }
-body.index #header .buttons.navbar-nav .fill-btn,
-body.blog #header .buttons.navbar-nav .fill-btn {
-  color: #ffffff;
-  background-color: #48b4fb !important;
-  -webkit-box-shadow: 2px 2px 0px 1px rgba(0, 140, 232, 0.2);
-  -moz-box-shadow: 2px 2px 0px 1px rgba(0, 140, 232, 0.2);
-  box-shadow: 2px 2px 0px 1px rgba(0, 140, 232, 0.2);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background: #ffffff url(../images/harmony-mini.png) 10px 7px no-repeat;
-  background-image: url("../images/harmony-mini.png");
-  background-size: 19px 19px;
-}
-body.index #header .buttons.navbar-nav .fill-btn:hover,
-body.blog #header .buttons.navbar-nav .fill-btn:hover {
-  -webkit-box-shadow: 4px 6px 0px 1px rgba(0, 140, 232, 0.15);
-  -moz-box-shadow: 4px 6px 0px 1px rgba(0, 140, 232, 0.15);
-  box-shadow: 4px 6px 0px 1px rgba(0, 140, 232, 0.15);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  body.index #header .buttons.navbar-nav .fill-btn,
-  body.blog #header .buttons.navbar-nav .fill-btn {
-    background-image: url("../images/harmony-mini@2x.png");
-    background-size: 19px 19px;
-  }
-}
 body.index #header .buttons.navbar-nav .black-caret-right,
 body.blog #header .buttons.navbar-nav .black-caret-right {
   display: inline-block;
@@ -1380,16 +1330,6 @@ body.page-sub #header .main-links.nav > li > a:focus {
 #jumbotron #jumbotron-content .jumbo-logo {
   position: relative;
   padding-top: 20px;
-  /* .hero-harmony {
-                position: absolute;
-                top: 99px;
-                left: 87px;
-                width: 66px;
-                height: 65px;
-                background: url(/images/harmony-hero-logo.png) 0 0 no-repeat;
-                .img-retina("/images/harmony-hero-logo.png", "/images/harmony-hero-logo@2x.png", 66px, 65px);
-            }
-            */
 }
 #jumbotron #jumbotron-content .jumbo-logo .hero-logo {
   position: absolute;
@@ -1742,9 +1682,6 @@ div.align-center {
   background-size: 8px 13px;
   background-position: 0 1px;
 }
-#products.harmony {
-  background-color: #48b4fb;
-}
 #products.vagrant {
   background-color: #2f88f7;
 }
@@ -1830,28 +1767,6 @@ div.align-center {
   margin: 0 auto;
   margin-bottom: 10px;
   overflow: hidden;
-}
-#products #products-nav li.harmony a {
-  background: url(/images/nav-harmony-active.png) center -80px no-repeat;
-  background-image: url("/images/nav-harmony-active.png");
-  background-size: 41px 40px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  #products #products-nav li.harmony a {
-    background-image: url("/images/nav-harmony-active@2x.png");
-    background-size: 41px 40px;
-  }
-}
-#products #products-nav li.harmony a i {
-  background: url(/images/nav-harmony.png) 0 0 no-repeat;
-  background-image: url("/images/nav-harmony.png");
-  background-size: 41px 40px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  #products #products-nav li.harmony a i {
-    background-image: url("/images/nav-harmony@2x.png");
-    background-size: 41px 40px;
-  }
 }
 #products #products-nav li.consul a {
   background: url(/images/nav-consul-active.png) center -80px no-repeat;
@@ -1975,9 +1890,6 @@ div.align-center {
   transition: all 0.3s cubic-bezier(0.25, 0.25, 0.75, 0.75);
   margin-top: -5px;
 }
-#products #products-display.harmony {
-  background-color: #48b4fb;
-}
 #products #products-display.vagrant {
   background-color: #2f88f7;
 }
@@ -1992,31 +1904,6 @@ div.align-center {
 }
 #products #products-display.terraform {
   background-color: #822ff7;
-}
-#products #products-display .harmony .product-logo {
-  background: url(/images/product-harmony.png) 0 0 no-repeat;
-  background-image: url("/images/product-harmony.png");
-  background-size: 208px 202px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  #products #products-display .harmony .product-logo {
-    background-image: url("/images/product-harmony@2x.png");
-    background-size: 208px 202px;
-  }
-}
-#products #products-display .harmony .fill-btn {
-  color: #48b4fb;
-}
-#products #products-display .harmony .black-caret-right {
-  background: url(/images/harmony-caret-right.png) 0 0 no-repeat;
-  background-image: url("/images/harmony-caret-right.png");
-  background-size: 6px 9px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  #products #products-display .harmony .black-caret-right {
-    background-image: url("/images/harmony-caret-right@2x.png");
-    background-size: 6px 9px;
-  }
 }
 #products #products-display .consul .product-logo {
   background: url(/images/product-consul.png) 0 0 no-repeat;
@@ -3181,17 +3068,6 @@ body.jobs #chat p {
   #timeline #points .point .body i.hashicorp {
     background-image: url("/images/hashicorp-medium@2x.png");
     background-size: 50px 54px;
-  }
-}
-#timeline #points .point .body i.harmony {
-  background: url(/images/time-harmony.png) 0 0 no-repeat;
-  background-image: url("/images/time-harmony.png");
-  background-size: 56px 56px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  #timeline #points .point .body i.harmony {
-    background-image: url("/images/time-harmony@2x.png");
-    background-size: 56px 56px;
   }
 }
 #timeline #points .point .body i.consul {
